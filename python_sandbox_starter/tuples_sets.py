@@ -63,6 +63,12 @@ fruits_set.remove('Grape')
 print(fruits_set)
 print('')
 
+#! Add duplicate
+print('Add duplicate')
+fruits_set.add('Apples')
+#* Since Apples already exists in the set, pythyon won't do anything. Thanks python!
+print('')
+
 #! Clear set
 print('Clear set')
 fruits_set.clear()
